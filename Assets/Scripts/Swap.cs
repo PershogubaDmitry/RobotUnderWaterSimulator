@@ -7,7 +7,7 @@ public class Swap : MonoBehaviour, IPointerClickHandler
 {
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("I am working!");
+        Debug.Log("I am Changed!");
     }
     public GameObject New;
      void Update()
