@@ -27,6 +27,6 @@ public class MapCreate : MonoBehaviour
         }
 
         
-        cnt.text = "Score: " + "0/"+ counter.ToString() + '.';
+        cnt.text = "Score: " + "0/"+ counter.ToString();
     }
 }

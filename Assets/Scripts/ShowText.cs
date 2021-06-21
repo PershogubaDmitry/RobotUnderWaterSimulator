@@ -26,7 +26,6 @@ public class ShowText : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         UiObject.SetActive(false);
-        //mat = other.GetComponentInChildren<Renderer>();
         mat.material = defaultMaterial;        
     }
 }
